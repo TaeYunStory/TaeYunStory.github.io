@@ -44,7 +44,7 @@
 # [관련 이미지 & 동영상]
 
 - 이미지  
-  
+  <img src="./img/관련이미지.jpg">
 - 동영상
   [![](./img/관련동영상.png)](https://youtu.be/jpON9RgkenE)
 
