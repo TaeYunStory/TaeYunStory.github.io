@@ -52,7 +52,8 @@
 
 # [대표 이미지]
 
-<img src="./img/대표화면.png">
+<img src="./img/대표화면.png" height="300">
+
 
 <br><br>
 
@@ -60,7 +61,7 @@
 
 > ### 대표이미지 기반 :
 
-<img src="./img/작품묘사.png">
+<img src="./img/작품묘사.png" height="300">
 
 # [<"EsCafe"> 구성 요소]
 <br>
