@@ -128,17 +128,12 @@ Unity 사용
 |6|통신기|<img src="./img/통신기.jpg" height="150">|
 |7|미니게임|<img src="./img/미니게임.png" height="150">|
 
-## 1. 파라미터(속성)뽑아 보기
+## 2. 파라미터(속성)뽑아 보기
 
+1) 오브젝트 이름 : 횃불
 |속성|영문 명칭|설명|비고|
 |:----:|:----:|:----:|:----:|
-|1|플레이어|<img src="./img/플레이어.png" height="150">|
-|2|횃불|<img src="./img/횃불.jpg" height="150">|
-|3|배터리|<img src="./img/배터리.jpg" height="150">|
-|4|발전기|<img src="./img/발전기.png" height="150">|
-|5|승강기|<img src="./img/승강기.jpg" height="150">|
-|6|통신기|<img src="./img/통신기.jpg" height="150">|
-|7|미니게임|<img src="./img/미니게임.png" height="150">|
+|빛|light|어두운 공간속을 밝혀주는 값||
 
 
 
