@@ -120,13 +120,13 @@ Unity 사용
 
 |연번|오브젝트 이름|오브젝트 이미지|
 |:----:|:----:|:----:|
-|1|플레이어|<img src="./img/플레이어.png" width="500">|
-|2|횃불|<img src="./img/횃불.jpg" width="500">|
-|3|배터리|<img src="./img/배터리.jpg" height="300">|
-|4|발전기|<img src="./img/발전기.png" height="300">|
-|5|승강기|<img src="./img/승강기.jpg" height="300">|
-|6|통신기|<img src="./img/통신기.jpg" height="300">|
-|7|미니게임|<img src="./img/미니게임.png" height="300">|
+|1|플레이어|<img src="./img/플레이어.png" height="150">|
+|2|횃불|<img src="./img/횃불.jpg" height="150">|
+|3|배터리|<img src="./img/배터리.jpg" height="150">|
+|4|발전기|<img src="./img/발전기.png" height="150">|
+|5|승강기|<img src="./img/승강기.jpg" height="150">|
+|6|통신기|<img src="./img/통신기.jpg" height="150">|
+|7|미니게임|<img src="./img/미니게임.png" height="150">|
 
 
 
