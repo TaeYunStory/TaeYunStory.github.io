@@ -46,7 +46,7 @@
 - 이미지  
   
 - 동영상
-  [![](./img/그림.png)](https://www.youtube.com/watch?v=5xy4n73WOMM)
+  [![](./img/관련동영상.png)](https://youtu.be/jpON9RgkenE)
 
 <br><br>
 
