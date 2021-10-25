@@ -298,19 +298,10 @@ Unity 사용
    <td>1</td> <td rowspan="4">메인메뉴</td> <td rowspan="4">화면요소</td> 
    <td colspan="2">게임을 실행했을때 나오는 메인 메뉴 화면이다. 시작, 환경 설정, 종료 버튼이 있다.</td>
   </tr>
+   <tr>
+    <td>2</td>  <td>게임 시작 버튼</td> <td>게임 시작 버튼을 누르면 인트로 화면으로 전환된다.</td>
+  </tr>
 </table>
 
-<table>
-  <tr>
-    <td rowspan="3">내용</td>
-    <td>내용</td>
-  </tr>
-  <tr>
-    <td>내용</td>
-  </tr>
-  <tr>
-    <td>내용</td>
-  </tr>
-</table>
 
 
