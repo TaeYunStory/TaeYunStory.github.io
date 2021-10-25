@@ -292,7 +292,7 @@ Unity 사용
 
 <table>
   <tr>
-    <td>No</td> <td>화면</td> <td>용어</td> <td>설명</td>
+    <td>No</td>  <td colspan="2">화면</td> <td>용어</td> <td>설명</td>
   </tr>
   <tr>
    <td>1</td> <td rowspan="4">메인메뉴</td> <td rowspan="4">화면요소</td> 
