@@ -317,6 +317,26 @@ Unity 사용
   <tr>
     <td>6</td>  <td>조작법 텍스트</td> <td>조작법에 대한 텍스트가 나온다.</td>
   </tr>
+  <tr>
+   <td>7</td> <td rowspan="25">게임화면</td> <td rowspan="5">화면요소</td> 
+   <td>아이템 슬롯</td> <td>보유한 아이템을 보여 준다.</td>
+  </tr>
+  <tr>
+    <td>8</td>  <td>체력</td> <td>현재 체력을 보여준다.</td>
+  </tr>
+   <tr>
+    <td>9</td>  <td>에너지</td> <td>현재 에너지를 보여준다.</td>
+  </tr>
+   <tr>
+    <td>10</td>  <td>스킬</td> <td>보유한 스킬을 보여준다.</td>
+  </tr>
+   <tr>
+    <td>11</td>  <td>타이머</td> <td>게임의 제한 시간을 보여 준다.</td>
+  </tr>
+   <tr>
+    <td>12</td> <td rowspan="20">스크립트요소</td>  <td>move</td> <td> W, A, S, D로 움직임을 담는 배열.</td>
+  </tr>
+  
   
 </table>
 
