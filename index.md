@@ -337,6 +337,6 @@ Unity 사용
     <td>12</td> <td rowspan="20">스크립트요소</td>  <td>move</td> <td> W, A, S, D로 움직임을 담는 배열.</td>
   </tr>
   
-  
+  인트로 
 </table>
 
