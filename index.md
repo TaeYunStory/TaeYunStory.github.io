@@ -291,19 +291,6 @@ Unity 사용
 # [용어정리]
 
 
-<table>
-  <tr>
-    <td>내용</td>
-    <td>내용</td>
-  </tr>
-  <tr>
-    <td colspan="2">내용</td>
-  </tr>
-   <td>내용</td>
-   </tr>
-</table>
-
-
 
 
 
