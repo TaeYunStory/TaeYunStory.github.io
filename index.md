@@ -292,13 +292,24 @@ Unity 사용
 
 <table>
   <tr>
-    <td>No</td> <td>화면</td>
+    <td>No</td> <td>화면</td> <td>용어</td> <td>설명</td>
   </tr>
   <tr>
-    <td colspan="2">내용</td>
+   <td>1</td> <td colspan="2">내용</td>
   </tr>
 </table>
 
-
+<table>
+  <tr>
+    <td rowspan="3">내용</td>
+    <td>내용</td>
+  </tr>
+  <tr>
+    <td>내용</td>
+  </tr>
+  <tr>
+    <td>내용</td>
+  </tr>
+</table>
 
 
