@@ -334,9 +334,35 @@ Unity 사용
     <td>11</td>  <td>타이머</td> <td>게임의 제한 시간을 보여 준다.</td>
   </tr>
    <tr>
-    <td>12</td> <td rowspan="20">스크립트요소</td>  <td>move</td> <td> W, A, S, D로 움직임을 담는 배열.</td>
+    <td>12</td> <td rowspan="20">스크립트요소</td>  <td>move</td> <td> W, A, S, D로 움직임을 담는 배열</td>
   </tr>
-  
-  인트로 
+   <tr>
+    <td>13</td> <td>ca.updown</td> <td>마우스를 움직였을때 위아래로 카메라 시점을 움직임</td>
+  </tr>
+   <tr>
+    <td>14</td> <td>ca.leftright</td> <td>마우스를 움직였을때 좌우로 카메라 시점을 움직임</td>
+  </tr>
+   <tr>
+    <td>15</td> <td>interaction</td> <td>물체와 상호작용을 판단함</td>
+  </tr>
+  <tr>
+    <td>16</td> <td>user</td> <td>유저의 상태를 모아둔 배열</td>
+  </tr>
+   <tr>
+    <td>17</td> <td>user.hp</td> <td>유저의 최대 체력, 현재 체력 최소 체력</td>
+  </tr>
+   <tr>
+    <td>18</td> <td>user.mp</td> <td>유저의 최대 에너지, 현재 에너지 최소 에너지</td>
+  </tr>
+   <tr>
+    <td>19</td> <td>user.skil</td> <td>유저가 가지고 있는 스킬</td>
+  </tr>
+  <tr>
+    <td>20</td> <td>user.item</td> <td>유저가 가지고 있는 아이템</td>
+  </tr>
+    <tr>
+    <td>21</td> <td>obj_torchlight</td> <td>횃불</td>
+  </tr>
+
 </table>
 
