@@ -285,10 +285,6 @@ Unity 사용
 15. 한 게임안에 여러 챕터로 구성되며 유저는 챕터를 클리어시 바로 다음 챕터로 넘어간다.
 
 
-
-![image](https://user-images.githubusercontent.com/70739208/138681778-200097e4-2f4e-4d56-b783-eb43464c5867.png)
-
-
 # [시간별 흐름도]
 
 <img src="./img/시간별 흐름도.png" height="500">
