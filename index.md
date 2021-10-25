@@ -290,7 +290,14 @@ Unity 사용
 
 # [용어정리]
 
-
+<table>
+  <tr>
+    <td>No</td> <td>화면</td>
+  </tr>
+  <tr>
+    <td colspan="2">내용</td>
+  </tr>
+</table>
 
 
 
