@@ -295,7 +295,8 @@ Unity 사용
     <td>No</td> <td>화면</td> <td>용어</td> <td>설명</td>
   </tr>
   <tr>
-   <td>1</td> <td colspan="2">내용</td>
+   <td>1</td> <td rowspan="4">메인메뉴</td> <td rowspan="4">화면요소</td> 
+   <td colspan="2">게임을 실행했을때 나오는 메인 메뉴 화면이다. 시작, 환경 설정, 종료 버튼이 있다.</td>
   </tr>
 </table>
 
