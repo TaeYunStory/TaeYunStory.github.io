@@ -363,6 +363,42 @@ Unity 사용
     <tr>
     <td>21</td> <td>obj_torchlight</td> <td>횃불</td>
   </tr>
-
+  <tr>
+    <td>22</td> <td>obj_battery</td> <td>T버튼과 상호작용하는 배터리</td>
+  </tr>
+  <tr>
+    <td>23</td> <td>obj_elcpower</td> <td>T버튼과 상호작용하는 전력기</td>
+  </tr>
+  <tr>
+    <td>24</td> <td>obj_mini</td> <td>T버튼과 상호작용하는 미니게임판. 상호작용시 미니게임 화면으로 이동</td>
+  </tr>
+  <tr>
+    <td>25</td> <td>obj_door</td> <td>T버튼과 상호작용하는 문</td>
+  </tr>
+   <tr>
+    <td>26</td> <td>obj_radio</td> <td>T버튼과 상호작용하는 무전기. 상호작용시 힌트를 텍스트로 출력함</td>
+  </tr>
+   <tr>
+    <td>27</td> <td>timer</td> <td>유저에게 주어진 시간을 표시함</td>
+  </tr>
+   <tr>
+    <td>28</td> <td>map</td> <td>미니맵</td>
+  </tr>
+   <tr>
+    <td>29</td> <td>user_speed</td> <td>유저의 속도를 정의</td>
+  </tr>
+   <tr>
+    <td>30</td> <td>pop.up</td> <td>F10버튼을 누르면 게임 종료, 환경 설정 버튼이 있는 팝업이 나옴</td>
+  </tr>
+   <tr>
+    <td>31</td> <td>obj_lift</td> <td>챕터를 넘어가는 문(승강기)</td>
+  </tr>
+   <tr>
+    <td>32</td>  <td rowspan="7">미니게임</td> <td rowspan="7">화면요소</td>
+    <td>보드판</td> <td>보드판과 보드판안에 숫자가 생성된다.</td>
+  </tr>
+  <tr>
+    <td>33</td> <td>타이머</td> <td>제한 시간을 보여 준다.</td>
+  </tr>
 </table>
 
