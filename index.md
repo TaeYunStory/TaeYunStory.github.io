@@ -270,6 +270,8 @@ Unity 사용
 
 # [시간별 흐름도]
 
+<img src="./img/시간별 흐름도.png" height="500">
+
 # [키보드 이벤트에 대한 흐름도]
 
 <img src="./img/키보드이벤트에 대한 흐름도.png" height="500">
