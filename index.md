@@ -337,7 +337,7 @@ Unity 사용
     <td>6</td>  <td>조작법 텍스트</td> <td>조작법에 대한 텍스트가 나온다.</td>
   </tr>
   <tr>
-   <td>7</td> <td rowspan="25">인게임</td> <td rowspan="4">화면요소</td> 
+   <td>7</td> <td rowspan="29">인게임</td> <td rowspan="4">화면요소</td> 
    <td>아이템 슬롯</td> <td>보유한 아이템을 보여 준다.</td>
   </tr>
    <tr>
