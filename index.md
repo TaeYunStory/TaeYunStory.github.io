@@ -353,49 +353,49 @@ Unity 사용
     <td>11</td> <td rowspan="25">스크립트요소</td>  <td>move</td> <td> W, A, S, D로 움직임을 담는 배열</td>
   </tr>
   <tr>
-    <td>12</td> <td>user</td> <td>플레이어</td>
+    <td>12</td> <td>User</td> <td>플레이어</td>
   </tr>
    <tr>
-    <td>13</td> <td>user.item</td> <td>플레이어의 아이템 슬롯 가지고있는 아이템을 보관함</td>
+    <td>13</td> <td>User.item</td> <td>플레이어의 아이템 슬롯 가지고있는 아이템을 보관함</td>
   </tr>
    <tr>
-    <td>14</td> <td>user.energy</td> <td>플레이어의 에너지를 나타냄</td>
+    <td>14</td> <td>User.energy</td> <td>플레이어의 에너지를 나타냄</td>
   </tr>
    <tr>
-    <td>15</td> <td>user.skil</td> <td>플레이어가 가지고 있는 스킬</td>
+    <td>15</td> <td>User.skil</td> <td>플레이어가 가지고 있는 스킬</td>
   </tr>
      <tr>
-    <td>16</td> <td>user.speed</td> <td>플레이어의 속도</td>
+    <td>16</td> <td>User.speed</td> <td>플레이어의 속도</td>
   </tr>
   <tr>
-    <td>17</td> <td>ca.sight</td> <td>카메라의 시점을 담는 변수</td>
+    <td>17</td> <td>Ca.sight</td> <td>카메라의 시점을 담는 변수</td>
   </tr>
    <tr>
-    <td>18</td> <td>ca.updown</td> <td>마우스를 움직였을때 위아래로 카메라 시점을 움직임</td>
+    <td>18</td> <td>Ca.updown</td> <td>마우스를 움직였을때 위아래로 카메라 시점을 움직임</td>
   </tr>
    <tr>
-    <td>19</td> <td>ca.leftright</td> <td>마우스를 움직였을때 좌우로 카메라 시점을 움직임</td>
+    <td>19</td> <td>Ca.leftright</td> <td>마우스를 움직였을때 좌우로 카메라 시점을 움직임</td>
   </tr>
    <tr>
-    <td>20</td> <td>ca.timer</td> <td>게임의 제한시간을 표시함</td>
+    <td>20</td> <td>Ca.timer</td> <td>게임의 제한시간을 표시함</td>
   </tr>
    <tr>
-    <td>21</td> <td>map</td> <td>게임상 플레이어의 위치를 확인할수있는 미니맵</td>
+    <td>21</td> <td>Map</td> <td>게임상 플레이어의 위치를 확인할수있는 미니맵</td>
   </tr>
   <tr>
-    <td>22</td> <td>map.bhint</td> <td>통신기의 힌트를 사용시 생기는 배터리의 위치 맵핑</td>
+    <td>22</td> <td>Map.bhint</td> <td>통신기의 힌트를 사용시 생기는 배터리의 위치 맵핑</td>
   </tr>
    <tr>
-    <td>23</td> <td>interaction</td> <td>물체와 상호작용을 판단함</td>
+    <td>23</td> <td>Interaction</td> <td>물체와 상호작용을 판단함</td>
   </tr>
     <tr>
-    <td>24</td> <td>obj_torchlight</td> <td>횃불</td>
+    <td>24</td> <td>Obj_torchlight</td> <td>횃불</td>
   </tr>
   <tr>
     <td>25</td> <td>battery</td> <td>T버튼과 상호작용하는 배터리</td>
   </tr>
   <tr>
-    <td>26</td> <td>obj_generator</td> <td>T버튼과 상호작용하는 발전기</td>
+    <td>26</td> <td>Obj_generator</td> <td>T버튼과 상호작용하는 발전기</td>
   </tr>
    <tr>
     <td>27</td> <td>G_storage</td> <td>발전기의 용량</td>
