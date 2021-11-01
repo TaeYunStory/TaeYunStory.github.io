@@ -159,27 +159,29 @@ Unity 사용
 
 |속성|영문 명칭|설명|비고|
 |:----:|:----:|:----:|:----:|
-|시점|ca_sight|플레이어가 바라보는 방향을 비추는 카메라 값 |y= (0,180) x= (0,180)|
+|시점|Ca_sight|플레이어가 바라보는 방향을 비추는 카메라 값 |y= (0,180) x= (0,180)|
+|타이머|Ca_timer|게임의 제한시간으로 플레이어 시점에 둠 |0, 1800|
+
 
 ### 1) 오브젝트 이름 : 횃불
 
 |속성|영문 명칭|설명|비고|
 |:----:|:----:|:----:|:----:|
-|빛|obj_torchlight|어두운 공간속을 밝혀주는 값|0,1|
+|빛|Obj_torchlight|어두운 공간속을 밝혀주는 값|0,1|
 
 ### 2) 오브젝트 이름 : 배터리
 
 |속성|영문 명칭|설명|비고|
 |:----:|:----:|:----:|:----:|
-|전기|obj_battery|발전기에 동력원이 되는 파라미터|0,1|
+|전기|battery|발전기에 동력원이 되는 파라미터|0,1|
 
 ### 3) 오브젝트 이름 : 발전기
 
 |속성|영문 명칭|설명|비고|
 |:----:|:----:|:----:|:----:|
-|전기|obj_battery|발전기에 동력원이 되는 파라미터|0,1|
-|충전량|obj_storage|한번의 충전되는 전력량을 나타내주는 값|40|
-|최대용량|obj_maxstorage|충전 가능한 전력량의 최대치로 한계치를 의미|0,100|
+|전기|battery|발전기에 동력원이 되는 파라미터|0,1|
+|충전량|G_storage|한번의 충전되는 전력량을 나타내주는 값|40|
+|최대용량|G_maxstorage|충전 가능한 전력량의 최대치로 한계치를 의미|0,100|
 
 ### 4) 오브젝트 이름 : 승강기
 
@@ -200,7 +202,7 @@ Unity 사용
 
 |속성|영문 명칭|설명|비고|
 |:----:|:----:|:----:|:----:|
-|타이머|Timer|게임플레이를 진행할수있는 제한시간|0,300|
+|타이머|M_timer|게임플레이를 진행할수있는 제한시간|0,300|
 ||| 추가 예정 ||
 
 ## 3. 행동
@@ -211,7 +213,7 @@ Unity 사용
 |:----:|:----:|
 |이동| W, A, S, D 로 플레이어 움직임 제어|
 |상호작용|T 로 오브젝트 획득 및 활성화 |
-|대쉬|C 버튼을 누를시 초당 5의 에너지를 소모하며 플레이어의 속력 값 일시 증가|
+|대쉬|C 버튼을 누를시 초당 5의 에너지를 소모하며 플레이어의 속력 값 일시 2로 증가|
 |텔레포트|V 버튼을 누를시 에너지 30소모하며 플레이어가 보고있는 방향으로 좌표 값 50이동|
 
 ## 4. 상태
@@ -252,7 +254,7 @@ Unity 사용
 
 |속성|영문명칭|설명|비고|
 |:----:|:----:|:----:|:----:|
-|이동속도|speed|플레이어가 이동시 속도값.|0,1|
+|이동속도|speed|플레이어가 이동시 속도값.|0,2|
 |에너지|Energy|대쉬 및 벽통과를 하는데 사용하는 값.  </br>  스킬이 지속되지 않을시 초당 5씩 차오른다.|최소 0, 최대 100|
 
 ## 6. 게임의 규칙
@@ -335,80 +337,92 @@ Unity 사용
     <td>6</td>  <td>조작법 텍스트</td> <td>조작법에 대한 텍스트가 나온다.</td>
   </tr>
   <tr>
-   <td>7</td> <td rowspan="25">인게임</td> <td rowspan="5">화면요소</td> 
+   <td>7</td> <td rowspan="25">인게임</td> <td rowspan="4">화면요소</td> 
    <td>아이템 슬롯</td> <td>보유한 아이템을 보여 준다.</td>
   </tr>
-  <tr>
-    <td>8</td>  <td>체력</td> <td>현재 체력을 보여준다.</td>
+   <tr>
+    <td>8</td>  <td>에너지</td> <td>현재 에너지를 보여준다.</td>
   </tr>
    <tr>
-    <td>9</td>  <td>에너지</td> <td>현재 에너지를 보여준다.</td>
+    <td>9</td>  <td>스킬</td> <td>보유한 스킬을 보여준다.</td>
   </tr>
    <tr>
-    <td>10</td>  <td>스킬</td> <td>보유한 스킬을 보여준다.</td>
+    <td>10</td>  <td>타이머</td> <td>게임의 제한 시간을 보여 준다.</td>
   </tr>
    <tr>
-    <td>11</td>  <td>타이머</td> <td>게임의 제한 시간을 보여 준다.</td>
-  </tr>
-   <tr>
-    <td>12</td> <td rowspan="20">스크립트요소</td>  <td>move</td> <td> W, A, S, D로 움직임을 담는 배열</td>
-  </tr>
-   <tr>
-    <td>13</td> <td>ca.updown</td> <td>마우스를 움직였을때 위아래로 카메라 시점을 움직임</td>
-  </tr>
-   <tr>
-    <td>14</td> <td>ca.leftright</td> <td>마우스를 움직였을때 좌우로 카메라 시점을 움직임</td>
-  </tr>
-   <tr>
-    <td>15</td> <td>interaction</td> <td>물체와 상호작용을 판단함</td>
+    <td>11</td> <td rowspan="25">스크립트요소</td>  <td>move</td> <td> W, A, S, D로 움직임을 담는 배열</td>
   </tr>
   <tr>
-    <td>16</td> <td>user</td> <td>유저의 상태를 모아둔 배열</td>
+    <td>16</td> <td>user</td> <td>플레이어</td>
   </tr>
    <tr>
-    <td>17</td> <td>user.hp</td> <td>유저의 최대 체력, 현재 체력 최소 체력</td>
+    <td>17</td> <td>user.item</td> <td>플레이어의 아이템 슬롯 가지고있는 아이템을 보관함</td>
   </tr>
    <tr>
-    <td>18</td> <td>user.mp</td> <td>유저의 최대 에너지, 현재 에너지 최소 에너지</td>
+    <td>18</td> <td>user.energy</td> <td>플레이어의 최대 에너지, 현재 에너지 최소 에너지</td>
   </tr>
    <tr>
-    <td>19</td> <td>user.skil</td> <td>유저가 가지고 있는 스킬</td>
+    <td>19</td> <td>user.skil</td> <td>플레이어가 가지고 있는 스킬</td>
+  </tr>
+     <tr>
+    <td>19</td> <td>user.speed</td> <td>플레이어의 속도</td>
   </tr>
   <tr>
-    <td>20</td> <td>user.item</td> <td>유저가 가지고 있는 아이템</td>
+    <td>12</td> <td>ca.sight</td> <td>카메라의 시점을 담는 변수</td>
+  </tr>
+   <tr>
+    <td>12</td> <td>ca.updown</td> <td>마우스를 움직였을때 위아래로 카메라 시점을 움직임</td>
+  </tr>
+   <tr>
+    <td>13</td> <td>ca.leftright</td> <td>마우스를 움직였을때 좌우로 카메라 시점을 움직임</td>
+  </tr>
+   <tr>
+    <td>13</td> <td>ca.timer</td> <td>게임의 제한시간을 표시함</td>
+  </tr>
+   <tr>
+    <td>13</td> <td>map</td> <td>게임상 플레이어의 위치를 확인할수있는 미니맵</td>
+  </tr>
+  <tr>
+    <td>13</td> <td>map.bhint</td> <td>통신기의 힌트를 사용시 생기는 배터리의 위치 맵핑</td>
+  </tr>
+   <tr>
+    <td>14</td> <td>interaction</td> <td>물체와 상호작용을 판단함</td>
   </tr>
     <tr>
     <td>21</td> <td>obj_torchlight</td> <td>횃불</td>
   </tr>
   <tr>
-    <td>22</td> <td>obj_battery</td> <td>T버튼과 상호작용하는 배터리</td>
+    <td>22</td> <td>battery</td> <td>T버튼과 상호작용하는 배터리</td>
   </tr>
   <tr>
-    <td>23</td> <td>obj_elcpower</td> <td>T버튼과 상호작용하는 전력기</td>
+    <td>23</td> <td>obj_generator</td> <td>T버튼과 상호작용하는 발전기</td>
+  </tr>
+   <tr>
+    <td>23</td> <td>G_storage</td> <td>발전기의 용량</td>
   </tr>
   <tr>
-    <td>24</td> <td>obj_mini</td> <td>T버튼과 상호작용하는 미니게임판. 상호작용시 미니게임 화면으로 이동</td>
+    <td>23</td> <td>G_maxstorage</td> <td>발전기의 최대 용량</td>
   </tr>
-  <tr>
-    <td>25</td> <td>obj_door</td> <td>T버튼과 상호작용하는 문</td>
+    <tr>
+    <td>23</td> <td>Obj_lift</td> <td>게임 클리어의 관문 (승강기)</td>
   </tr>
-   <tr>
-    <td>26</td> <td>obj_radio</td> <td>T버튼과 상호작용하는 무전기. 상호작용시 힌트를 텍스트로 출력함</td>
+      <tr>
+    <td>23</td> <td>L_state</td> <td>승강기의 현 상태를 나타냄</td>
   </tr>
-   <tr>
-    <td>27</td> <td>timer</td> <td>유저에게 주어진 시간을 표시함</td>
+    <tr>
+    <td>23</td> <td>L_activate</td> <td>승강기를 통한 미니게임 실행</td>
   </tr>
-   <tr>
-    <td>28</td> <td>map</td> <td>미니맵</td>
+    <tr>
+    <td>23</td> <td>Obj_telephone</td> <td>T버튼과 상호작용하는 무전기. 상호작용시 힌트를 출력함</td>
   </tr>
-   <tr>
-    <td>29</td> <td>user_speed</td> <td>유저의 속도를 정의</td>
+    <tr>
+    <td>23</td> <td>T_activate</td> <td>통신기 활성화</td>
   </tr>
-   <tr>
-    <td>30</td> <td>pop.up</td> <td>F10버튼을 누르면 게임 종료, 환경 설정 버튼이 있는 팝업이 나옴</td>
+    <tr>
+    <td>23</td> <td>T_gamehint</td> <td>전력을 위한 배터리의 위치 제공 (미니맵)</td>
   </tr>
-   <tr>
-    <td>31</td> <td>obj_lift</td> <td>챕터를 넘어가는 문(승강기)</td>
+    <tr>
+    <td>23</td> <td>T_minihint</td> <td>미니게임 힌트 제공</td>
   </tr>
    <tr>
     <td>32</td>  <td rowspan="7">미니게임</td> <td rowspan="7">화면요소</td>
