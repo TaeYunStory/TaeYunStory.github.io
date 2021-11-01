@@ -433,7 +433,7 @@ Unity 사용
   </tr>
    <tr>
     <td>38</td> </td> <td rowspan="1">스크립트요소</td>
-    <td>M_timer</td> <td>미니게임을 플레이하는  </td>
+    <td>M_timer</td> <td>미니게임을 플레이하는 제한시간</td>
   </tr>
 </table>
 
