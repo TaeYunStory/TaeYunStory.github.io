@@ -425,7 +425,7 @@ Unity 사용
     <td>35</td> <td>T_minihint</td> <td>미니게임 힌트 제공</td>
   </tr>
    <tr>
-    <td>36</td>  <td rowspan="7">미니게임</td> <td rowspan="1">화면요소</td>
+    <td>36</td>  <td rowspan="7">미니게임</td> <td rowspan="2">화면요소</td>
     <td>보드판</td> <td>보드판과 보드판안에 숫자가 생성된다.</td>
   </tr>
   <tr>
