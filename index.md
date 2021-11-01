@@ -359,7 +359,7 @@ Unity 사용
     <td>17</td> <td>user.item</td> <td>플레이어의 아이템 슬롯 가지고있는 아이템을 보관함</td>
   </tr>
    <tr>
-    <td>18</td> <td>user.energy</td> <td>플레이어의 최대 에너지, 현재 에너지 최소 에너지</td>
+    <td>18</td> <td>user.energy</td> <td>플레이어의 에너지를 나타냄</td>
   </tr>
    <tr>
     <td>19</td> <td>user.skil</td> <td>플레이어가 가지고 있는 스킬</td>
