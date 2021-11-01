@@ -440,5 +440,5 @@ Unity 사용
 
 # [개발  일정]
 
-<img src="./img/키보드 이벤트에 대한 흐름도.png" height="500">
+<img src="./img/개발작업_일정_6주.png" height="500">
 
