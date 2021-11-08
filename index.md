@@ -501,4 +501,5 @@ Unity 사용
 4. 어두운 환경속 시야 확보를 위한 횃불 생성. (빛의 부자연스러움) (50%)
 
 - 구현 영상
+
 ![2week](https://user-images.githubusercontent.com/70739208/140795120-8b7b1d82-e341-4be4-bcef-f8da06fcf791.gif)
