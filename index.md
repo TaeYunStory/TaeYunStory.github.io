@@ -502,4 +502,4 @@ Unity 사용
 
 - 구현 영상
 
-![2week](https://user-images.githubusercontent.com/70739208/140795120-8b7b1d82-e341-4be4-bcef-f8da06fcf791.gif)
+  ![2week](https://user-images.githubusercontent.com/70739208/140795120-8b7b1d82-e341-4be4-bcef-f8da06fcf791.gif)
