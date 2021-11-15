@@ -524,5 +524,5 @@ Unity 사용
 <img src="./img/맵사진.png" height="500">
 
 <video width="100%" height="100%" controls="controls">
-  <source src=".video/3주차 작업결과.mp4" type="video/mp4">
+  <source src="./video/3주차%20작업결과.mp4" type="video/mp4">
 </video>
