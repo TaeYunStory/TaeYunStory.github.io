@@ -520,7 +520,8 @@ Unity 사용
 4. 플레이와 와 오브젝트 간의 상호작용 구현(상호작용후 인벤토리 미구현) (70%) 
 
 - 구현 영상
+<img src="./img/맵사진.png" height="500">
 
 <video width="100%" height="100%" controls="controls">
-  <source src="/동영상 파일이 위치한 경로/동영상_이름.확장자명(mp4/webm/ogg)" type="video/mp4">
+  <source src=".video/3주차 작업결과.mp4" type="video/mp4">
 </video>
