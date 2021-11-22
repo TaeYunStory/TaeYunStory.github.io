@@ -524,28 +524,44 @@ Unity 사용
 
 <img src="./img/맵사진.png" height="500">
 
+인벤토리 및 상호작용
 <video width="100%" height="100%" controls="controls">
   <source src="./video/3주차%20작업결과.mp4" type="video/mp4">
 </video>
 
 # [4주차 작업 결과]
   
-  - 요구사항 
-
+- 요구사항 
 1. ~~플레이어 기능 추가~~
-
 2. ~~인벤토리와 오브젝트간의 상호작용~~
+3. 오브젝트 상호작용 추가
+4. 맵 구체화
 
-3. ~~오브젝트 상호작용 추가~~
-
-4. ~~맵 구체화~~
-
-작업 내용 : (구체적 작업)
+- 작업 내용
 
 1. 플레이어 기능 추가(달리기, 앉기) (100%)
-
 2. 특정 오브젝트와 상호작용시 오브젝트가 인벤토리에 저장되도록 설계 (100%)
-
 3. 문 오브젝트 상호작용 설계 (일반적으로 열리는 문, 열리는데 조건이 필요한 문) (20%)
-
 4. 맵에 있는 방마다 다른 오브젝트를 설치함. (30%)
+
+-구현 영상
+
+-앉기
+<video width="100%" height="100%" controls="controls">
+  <source src="./video/3주차%20작업결과.mp4" type="video/mp4">
+</video>
+
+-달리기
+<video width="100%" height="100%" controls="controls">
+  <source src="./video/3주차%20작업결과.mp4" type="video/mp4">
+</video>
+
+-문 상호작용
+<video width="100%" height="100%" controls="controls">
+  <source src="./video/3주차%20작업결과.mp4" type="video/mp4">
+</video>
+
+-인벤토리 저장
+<video width="100%" height="100%" controls="controls">
+  <source src="./video/3주차%20작업결과.mp4" type="video/mp4">
+</video>
