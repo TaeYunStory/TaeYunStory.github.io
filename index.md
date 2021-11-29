@@ -582,17 +582,17 @@ Unity 사용
 
 -발걸음 소리
 <video width="100%" height="100%" controls="controls">
-  <source src="./video/4week/앉기.mp4" type="video/mp4">
+  <source src="./video/5week/발걸음소리.mp4" type="video/mp4">
 </video>
 
 -방문 열릴때 인벤토리 열쇠 상호작용
 <video width="100%" height="100%" controls="controls">
-  <source src="./video/4week/달리기.mp4" type="video/mp4">
+  <source src="./video/5week/문열림아이템소모.mp4" type="video/mp4">
 </video>
 
 -중문 아이템 소모 및 열림 상호작용
 <video width="100%" height="100%" controls="controls">
-  <source src="./video/4week/문열림.mp4" type="video/mp4">
+  <source src="./video/5week/중문아이템소모열림.mp4" type="video/mp4">
 </video>
 
 
