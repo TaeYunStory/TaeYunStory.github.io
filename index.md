@@ -565,3 +565,34 @@ Unity 사용
 <video width="100%" height="100%" controls="controls">
   <source src="./video/4week/인벤토리%20활성.mp4" type="video/mp4">
 </video>
+
+# [5주차 작업 결과]
+  
+- 요구사항 
+1. 사운드추가
+2. ~~부족한점 다듬기~~
+
+- 작업 내용
+
+1. 상황에 맞는 사운드 넣기 (발걸음, 문열림, 아이템획득, bgm) 25% (발걸음만 추가)
+2. 맵구체화 (중문을 여는데 필요한 오브젝트 및 다양한 기물들 추가) 60% (다양한 기물들 추가못함)
+3. 문 오브젝트 해금 다듬기 (방문이 열릴때 열쇠가 필요하게 추가, 중문에 퍼즐을 끼어넣으면 자동으로 옆으로 문이 열리게 설정) 100%
+
+-구현 영상
+
+-발걸음 소리
+<video width="100%" height="100%" controls="controls">
+  <source src="./video/4week/앉기.mp4" type="video/mp4">
+</video>
+
+-방문 열릴때 인벤토리 열쇠 상호작용
+<video width="100%" height="100%" controls="controls">
+  <source src="./video/4week/달리기.mp4" type="video/mp4">
+</video>
+
+-중문 아이템 소모 및 열림 상호작용
+<video width="100%" height="100%" controls="controls">
+  <source src="./video/4week/문열림.mp4" type="video/mp4">
+</video>
+
+
