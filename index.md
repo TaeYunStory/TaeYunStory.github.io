@@ -512,7 +512,10 @@ Unity 사용
 
 - 구현 영상
 
-  ![2week](https://user-images.githubusercontent.com/70739208/140795120-8b7b1d82-e341-4be4-bcef-f8da06fcf791.gif)
+- 이동 및 횃불 구현
+<video width="100%" height="100%" controls="controls">
+  <source src="./video/2week/이동및횃불.mp4" type="video/mp4">
+</video>
   
   # [3주차 작업 결과]
   
@@ -532,7 +535,7 @@ Unity 사용
 
 <img src="./img/맵사진.png" height="500">
 
-인벤토리 및 상호작용
+- 인벤토리 및 상호작용
 <video width="100%" height="100%" controls="controls">
   <source src="./video/3주차%20작업결과.mp4" type="video/mp4">
 </video>
