@@ -647,3 +647,7 @@ Unity 사용
 
 - 구현 영상
 
+- 최종 종합 게임 영상
+<video width="100%" height="100%" controls="controls">
+  <source src="./video/7week/7주차최종영상.mp4" type="video/mp4">
+</video>
