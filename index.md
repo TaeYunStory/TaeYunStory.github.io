@@ -517,7 +517,7 @@ Unity 사용
   <source src="./video/2week/이동및횃불.mp4" type="video/mp4">
 </video>
   
-  # [3주차 작업 결과]
+# [3주차 작업 결과]
   
 - 요구사항
 1. ~~chapter 1 맵 제작~~
@@ -537,7 +537,7 @@ Unity 사용
 
 - 인벤토리 및 상호작용
 <video width="100%" height="100%" controls="controls">
-  <source src="./video/3주차%20작업결과.mp4" type="video/mp4">
+  <source src="./video/3week/인벤토리.mp4" type="video/mp4">
 </video>
 
 # [4주차 작업 결과]
