@@ -472,7 +472,7 @@ Unity 사용
 
 # [개발작업 일정(6주)]
 
-<img src="./img/개발작업_일정_6주.png" height="500">
+<img src="./img/개발작업일정6주.png" height="500">
 
 # [1주차 작업 결과]
 
