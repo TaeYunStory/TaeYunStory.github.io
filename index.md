@@ -492,6 +492,10 @@ Unity 사용
  4. 인트로에서 간략한 스토리 텍스트가 나오고 10초가 지나면 조작법을 보여주는 텍스트로 전환 한다. 인트로를 생략하는 스킵 버튼도 추가 한다. (100%)
 
 - 구현 영상
+- 메인메뉴 및 인트로
+<video width="100%" height="100%" controls="controls">
+  <source src="./video/1week/메인메뉴인트로.mp4" type="video/mp4">
+</video>
 
 # [2주차 작업 결과]
 
