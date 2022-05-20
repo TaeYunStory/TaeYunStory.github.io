@@ -72,7 +72,7 @@
 
 # [대표 이미지]
 
-<img src="./img/대표이미지.png" height="500">
+<img src="./img/대표이미지.jpeg" height="500">
 
 
 <br><br>
