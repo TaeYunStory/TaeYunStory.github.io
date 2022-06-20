@@ -318,7 +318,7 @@ Unity 사용
     <td>14</td> <td>User.energy</td> <td>플레이어의 에너지를 나타냄</td>
   </tr>
    <tr>
-    <td>15</td> <td>User.skil</td> <td>플레이어가 가지고 있는 스킬</td>
+    <td>15</td> <td>User.skill</td> <td>플레이어가 가지고 있는 스킬</td>
   </tr>
      <tr>
     <td>16</td> <td>User.speed</td> <td>플레이어의 속도</td>
@@ -348,10 +348,10 @@ Unity 사용
     <td>29</td> <td>Obj_lift</td> <td>게임 클리어의 관문 (승강기)</td>
   </tr>
       <tr>
-    <td>30</td> <td>L_state</td> <td>승강기의 현 상태를 나타냄</td>
+    <td>30</td> <td>L_mission</td> <td>암호가 맞는지 판단함</td>
   </tr>
     <tr>
-    <td>31</td> <td>L_activate</td> <td>승강기를 통한 미니게임 실행</td>
+    <td>31</td> <td>L_activate</td> <td>암호가 맞을시 엔딩으로가는 문이 열림</td>
   </tr>
    <tr>
     <td>36</td>  <td rowspan="7">미니게임</td> <td rowspan="2">화면요소</td>
