@@ -293,7 +293,7 @@ Unity 사용
     <td>6</td>  <td>조작법 텍스트</td> <td>조작법에 대한 텍스트가 나온다.</td>
   </tr>
   <tr>
-   <td>7</td> <td rowspan="29">인게임</td> <td rowspan="4">화면요소</td> 
+   <td>7</td> <td rowspan="20">인게임</td> <td rowspan="4">화면요소</td> 
    <td>아이템 슬롯</td> <td>보유한 아이템을 보여 준다.</td>
   </tr>
    <tr>
@@ -306,7 +306,7 @@ Unity 사용
     <td>10</td>  <td>타이머</td> <td>게임의 제한 시간을 보여 준다.</td>
   </tr>
    <tr>
-    <td>11</td> <td rowspan="25">스크립트요소</td>  <td>move</td> <td> W, A, S, D로 움직임을 담는 배열</td>
+    <td>11</td> <td rowspan="16">스크립트요소</td>  <td>move</td> <td> W, A, S, D로 움직임을 담는 배열</td>
   </tr>
   <tr>
     <td>12</td> <td>User</td> <td>플레이어</td>
