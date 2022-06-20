@@ -146,7 +146,7 @@ Unity 사용
 |1|플레이어|<img src="./img/플레이어.png" height="150">|
 |2|횃불|<img src="./img/횃불.jpg" height="150">|
 |3|승강기|<img src="./img/승강기.jpg" height="150">|
-|4|미니게임|<img src="./img/미니게임.png" height="150">|
+|4|미니게임|<img src="./img/미니게임.PNG" height="150">|
 |5|아이템|<img src="./img/아이템.png" height="150">|
 
 ## 2. 파라미터(속성)
