@@ -336,28 +336,13 @@ Unity 사용
     <td>20</td> <td>Ca.timer</td> <td>게임의 제한시간을 표시함</td>
   </tr>
    <tr>
-    <td>21</td> <td>Map</td> <td>게임상 플레이어의 위치를 확인할수있는 미니맵</td>
-  </tr>
-  <tr>
-    <td>22</td> <td>Map.bhint</td> <td>통신기의 힌트를 사용시 생기는 배터리의 위치 맵핑</td>
-  </tr>
-   <tr>
     <td>23</td> <td>Interaction</td> <td>물체와 상호작용을 판단함</td>
   </tr>
     <tr>
     <td>24</td> <td>Obj_torchlight</td> <td>횃불</td>
   </tr>
   <tr>
-    <td>25</td> <td>battery</td> <td>T버튼과 상호작용하는 배터리</td>
-  </tr>
-  <tr>
     <td>26</td> <td>Obj_generator</td> <td>T버튼과 상호작용하는 발전기</td>
-  </tr>
-   <tr>
-    <td>27</td> <td>G_storage</td> <td>발전기의 용량</td>
-  </tr>
-  <tr>
-    <td>28</td> <td>G_maxstorage</td> <td>발전기의 최대 용량</td>
   </tr>
     <tr>
     <td>29</td> <td>Obj_lift</td> <td>게임 클리어의 관문 (승강기)</td>
@@ -367,18 +352,6 @@ Unity 사용
   </tr>
     <tr>
     <td>31</td> <td>L_activate</td> <td>승강기를 통한 미니게임 실행</td>
-  </tr>
-    <tr>
-    <td>32</td> <td>Obj_telephone</td> <td>T버튼과 상호작용하는 무전기. 상호작용시 힌트를 출력함</td>
-  </tr>
-    <tr>
-    <td>33</td> <td>T_activate</td> <td>통신기 활성화</td>
-  </tr>
-    <tr>
-    <td>34</td> <td>T_gamehint</td> <td>전력을 위한 배터리의 위치 제공 (미니맵)</td>
-  </tr>
-    <tr>
-    <td>35</td> <td>T_minihint</td> <td>미니게임 힌트 제공</td>
   </tr>
    <tr>
     <td>36</td>  <td rowspan="7">미니게임</td> <td rowspan="2">화면요소</td>
