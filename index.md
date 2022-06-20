@@ -364,10 +364,10 @@ Unity 사용
   </tr>
    <tr>
     <td>36</td>  <td rowspan="7">미니게임</td> <td rowspan="2">화면요소</td>
-    <td>보드판</td> <td>보드판과 보드판안에 숫자가 생성된다.</td>
+    <td>보드판</td> <td>보드판과 3x3의 이미지타일이 생성된다.</td>
   </tr>
   <tr>
-    <td>37</td> <td>타이머</td> <td>제한 시간을 보여 준다.</td>
+    <td>37</td> <td>샘플</td> <td>완성될 퍼즐의 사진을 보여준다.</td>
   </tr>
    <tr>
     <td>38</td>  <td rowspan="1">스크립트요소</td>
