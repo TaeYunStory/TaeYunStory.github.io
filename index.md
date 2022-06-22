@@ -221,6 +221,7 @@ Unity 사용
 ### 1) 핵심 규칙
 
 - 제한 시간 30분 이내에 해당 건물을 돌파해야함
+- 벽을 바라보았을때 텔레포트 사용 불
 
 ## f. 게임에서 사용될 알고리즘
  
@@ -311,33 +312,37 @@ Unity 사용
     <td>20</td> <td>Ca.timer</td> <td>게임의 제한시간을 표시함</td>
   </tr>
    <tr>
-    <td>23</td> <td>Interaction</td> <td>물체와 상호작용을 판단함</td>
+    <td>21</td> <td>Interaction</td> <td>물체와 상호작용을 판단함</td>
   </tr>
     <tr>
-    <td>24</td> <td>Obj_torchlight</td> <td>횃불</td>
+    <td>22</td> <td>Obj_torchlight</td> <td>횃불</td>
   </tr>
   <tr>
-    <td>26</td> <td>Obj_generator</td> <td>T버튼과 상호작용하는 발전기</td>
+    <td>23</td> <td>Obj_generator</td> <td>T버튼과 상호작용하는 발전기</td>
   </tr>
     <tr>
-    <td>29</td> <td>Obj_lift</td> <td>게임 클리어의 관문 (승강기)</td>
+    <td>24</td> <td>Obj_lift</td> <td>게임 클리어의 관문 (승강기)</td>
   </tr>
       <tr>
-    <td>30</td> <td>L_mission</td> <td>암호가 맞는지 판단함</td>
+    <td>25</td> <td>L_mission</td> <td>암호가 맞는지 판단함</td>
   </tr>
     <tr>
-    <td>31</td> <td>L_activate</td> <td>암호가 맞을시 엔딩으로가는 문이 열림</td>
+    <td>26</td> <td>L_activate</td> <td>암호가 맞을시 엔딩으로가는 문이 열림</td>
   </tr>
    <tr>
-    <td>36</td>  <td rowspan="7">미니게임</td> <td rowspan="2">화면요소</td>
+    <td>27</td>  <td rowspan="7">미니게임</td> <td rowspan="2">화면요소</td>
     <td>보드판</td> <td>보드판과 3x3의 이미지타일이 생성된다.</td>
   </tr>
   <tr>
-    <td>37</td> <td>샘플</td> <td>완성될 퍼즐의 사진을 보여준다.</td>
+    <td>28</td> <td>샘플</td> <td>완성될 퍼즐의 사진을 보여준다.</td>
   </tr>
    <tr>
-    <td>38</td>  <td rowspan="1">스크립트요소</td>
-    <td>M_timer</td> <td>미니게임을 플레이하는 제한시간</td>
+    <td>29</td>  <td rowspan="1">스크립트요소</td>
+    <td>M_Click</td> <td>미니게임의 사진을 눌러 위치를 이동시킴</td>
   </tr>
+    <tr>
+    <td>30</td> <td>M_Clear</td> <td>사진을 올바르게 배열시 미니게임이 클리어된다.</td>
+  </tr>
+
 </table>
 
