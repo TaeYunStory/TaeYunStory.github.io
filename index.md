@@ -337,7 +337,7 @@ Unity 사용
     <td>28</td> <td>샘플</td> <td>완성될 퍼즐의 사진을 보여준다.</td>
   </tr>
    <tr>
-    <td>29</td>  <td rowspan="1">스크립트요소</td>
+    <td>29</td>  <td rowspan="2">스크립트요소</td>
     <td>M_Click</td> <td>미니게임의 사진을 눌러 위치를 이동시킴</td>
   </tr>
     <tr>
